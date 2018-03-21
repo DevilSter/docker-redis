@@ -1,6 +1,7 @@
 FROM redis:alpine
 
-MAINTAINER Tilikov Vyacheslav
+LABEL maintainer="Devil.Ster.1"
+LABEL version="1.0"
 
 RUN mkdir /etc/redis
 COPY config/redis.conf /etc/redis/redis.conf
